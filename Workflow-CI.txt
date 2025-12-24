@@ -1,0 +1,13 @@
+Workflow Sistem Early Warning:
+
+1. Data sensor dikumpulkan dan disimpan.
+2. Data diproses (cleaning dan feature engineering).
+3. Model machine learning melakukan prediksi kegagalan.
+4. Hasil prediksi diekspos sebagai metrics Prometheus.
+5. Prometheus melakukan scraping metrics.
+6. Grafana menampilkan dashboard monitoring.
+7. Grafana Alerting mengevaluasi kondisi alert.
+8. Notifikasi alert dikirim (jika threshold terlampaui).
+
+CI/CD:
+Model dan aplikasi dijalankan melalui GitHub Actions untuk memastikan pipeline berjalan konsisten.
