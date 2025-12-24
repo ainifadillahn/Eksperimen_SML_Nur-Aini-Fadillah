@@ -1,3 +1,26 @@
-venv/
+# Python
 __pycache__/
-.ipynb_checkpoints/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+
+# MLflow
+mlruns/
+mlflow.db
+.mlflow/
+
+# Models
+models/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
